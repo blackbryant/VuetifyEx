@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build"
+    "build": "webpack --watch "
   },
   "dependencies": {
     "core-js": "^3.6.5",
@@ -13,13 +13,14 @@
     "sass": "^1.43.4",
     "sass-loader": "^12.3.0",
     "vue": "^2.6.4",
-    "vue-router": "^4.0.0-0",
+    "vue-router": "^3.5.3",
     "vuetify": "^2.5.14",
-    "vuex": "^4.0.0-0"
+    "vuex": "^3.6.2"
   },
   "devDependencies": {
     "file-loader": "^6.2.0",
     "vue-loader": "^15.9.8",
-    "vue-template-compiler": "^2.6.14"
+    "vue-template-compiler": "^2.6.14",
+    "webpack-cli": "^4.9.1"
   }
 }
