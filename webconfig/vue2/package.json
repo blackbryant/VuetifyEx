@@ -1,0 +1,25 @@
+{
+  "name": "vuetify_app",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build"
+  },
+  "dependencies": {
+    "core-js": "^3.6.5",
+    "node-sass": "^6.0.1",
+    "register-service-worker": "^1.7.1",
+    "sass": "^1.43.4",
+    "sass-loader": "^12.3.0",
+    "vue": "^2.6.4",
+    "vue-router": "^4.0.0-0",
+    "vuetify": "^2.5.14",
+    "vuex": "^4.0.0-0"
+  },
+  "devDependencies": {
+    "file-loader": "^6.2.0",
+    "vue-loader": "^15.9.8",
+    "vue-template-compiler": "^2.6.14"
+  }
+}
