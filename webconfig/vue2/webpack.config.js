@@ -1,4 +1,3 @@
-
 // Webpack uses this to work with directories
 const path = require('path');
 const { VueLoaderPlugin } = require('vue-loader')
@@ -21,11 +20,16 @@ module.exports = {
                 'Vue': 'vue/dist/vue.esm-bundler.js',
             },
             extensions: ['*','.js', '.vue']
+            
         },
         module: {
             rules: [{
                     test: /\.vue$/,
                     loader: 'vue-loader'
+                },
+                {
+                    test: /\.(woff|woff2|ttf|eot)$/,
+                    use: 'file-loader?name=fonts/[name].[ext]!static'
                 },
                 {
                     test: /\.(png|jpg|gif|jpe?g|svg)$/,
